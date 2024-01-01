@@ -1,0 +1,69 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/05/21/32/mountain-3063917_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+ /* ======Single===== */
+.Single{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0,0, 0,0.);
+    padding-left:45% ;
+}
+.Double{
+position: relative;
+width: 500px;
+backdrop-filter: blur(12px);
+border: 5px solid white;
+border: none;
+align-items: center;
+height: 500px;
+}
+.Triple{
+    color: white;
+    text-align: center;
+
+}
+.Quadruple{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.input-field{
+    width:400px ;
+    height: 55px;
+    font-size: 16px;
+    background-color: gray;
+    border: none;
+}
+.input-submit{
+    height: 55px;
+    width: 410px;
+    background-color: chartreuse;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: none;
+    backdrop-filter: blur(20px);
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ali{
+    text-align: center
+    ;
+}
+a{
+    display: inline;
+}
+p{
+    display: inline;
+}
